@@ -22,6 +22,7 @@ android {
             storePassword "allalone"
             keyAlias "testKey"
             keyPassword "allalone"
+
         }
     }
 
