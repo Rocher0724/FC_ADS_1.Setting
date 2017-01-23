@@ -13,4 +13,4 @@ android:
 before_insall:
   - chmod +x gradlew
 
-script: gradlew build
+script: ./gradlew build
