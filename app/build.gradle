@@ -16,6 +16,10 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner" // 테스트 환경
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     signingConfigs {
         release {
             storeFile file("../keystore/keystore.jks")
