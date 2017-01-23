@@ -17,7 +17,6 @@ android {
     }
 
     signingConfigs {
-
         release {
             storeFile file("../keystore/keystore.jks")
             storePassword "allalone"
