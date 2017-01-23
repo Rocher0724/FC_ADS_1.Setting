@@ -20,6 +20,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
 
         setContentView(R.layout.activity_settings);
 
+
         // 2. findViewById 으로 뷰 세팅
         btn = (Button) findViewById(R.id.button);
         tv = (TextView) findViewById(R.id.textView);
